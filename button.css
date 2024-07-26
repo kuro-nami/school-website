@@ -15,7 +15,7 @@
     font-size: 16px;
     transition: all 0.2s ease-in-out;
     padding: 13px 20px;
-    border-radius: 50%;
+    border-radius: 5000px;
 }
 
 .button:hover {
