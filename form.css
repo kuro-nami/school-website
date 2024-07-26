@@ -1,0 +1,77 @@
+h1#contact {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.form-section, .map-section {
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+}
+.form-section {
+    order: 1;
+}
+.map-section {
+    order: 2;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.map-section iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .form-section, .map-section {
+        flex: 1 1 100%;
+        order: initial;
+    }
+    .map-section {
+        height: 400px;
+    }
+}
