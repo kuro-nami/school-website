@@ -93,7 +93,7 @@ a {
     height: 50vh;
     width: 50%;
     border-radius: 5px;
-    background: url(/media/hero-image.jpg);
+    background: url(/media/hero-image.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,21 +149,21 @@ a {
 }
 
 .testimonial-image:nth-child(1) {
-    background: url(/media/ilyas.jpg);
+    background: url(/media/ilyas.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .testimonial-image:nth-child(2) {
-    background: url(/media/sajid.jpg);
+    background: url(/media/sajid.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #Principal {
-    background: url(/media/principal.jpg);
+    background: url(/media/principal.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
