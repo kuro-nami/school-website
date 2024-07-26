@@ -16,6 +16,7 @@
     transition: all 0.2s ease-in-out;
     padding: 13px 20px;
     border-radius: 5000px;
+    z-index: -100;
 }
 
 .button:hover {
