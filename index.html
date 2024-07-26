@@ -10,10 +10,13 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="button.css">
     <link rel="stylesheet" href="phonenav.css">
+    <link rel="stylesheet" href="trailer.css">
 </head>
 
 <body>
 
+     <div id="follower"></div>
+    
     <div class="nav">
         <a href="" target="blank">Home</a>
         <a href="#contact">Contact</a>
@@ -205,6 +208,44 @@
         mybutton.onclick = function () {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
+        
+        // Trailer
+
+        document.addEventListener('mousemove', (event) => {
+    const follower = document.getElementById('follower');
+    const mouseX = event.pageX;
+    const mouseY = event.pageY;
+    
+    setTimeout(() => {
+        follower.style.left = `${mouseX}px`;
+        follower.style.top = `${mouseY}px`;
+    }, 50); // Adjust the delay for a smoother or faster trailing effect
+});
+
+document.addEventListener('mousemove', (event) => {
+    const follower = document.getElementById('followertwo');
+    const mouseX = event.pageX;
+    const mouseY = event.pageY;
+    
+    setTimeout(() => {
+        follower.style.left = `${mouseX}px`;
+        follower.style.top = `${mouseY}px`;
+    }, 100); // Adjust the delay for a smoother or faster trailing effect
+});
+
+document.addEventListener('mousemove', (event) => {
+    const follower = document.getElementById('followerthree');
+    const mouseX = event.pageX;
+    const mouseY = event.pageY;
+    
+    setTimeout(() => {
+        follower.style.left = `${mouseX}px`;
+        follower.style.top = `${mouseY}px`;
+    }, 100); // Adjust the delay for a smoother or faster trailing effect
+});
+
+
+        
     </script>
 
 
