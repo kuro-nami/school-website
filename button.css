@@ -12,8 +12,10 @@
     margin-bottom: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     transition: all 0.2s ease-in-out;
+    padding: 13px 20px;
+    border-radius: 50%;
 }
 
 .button:hover {
