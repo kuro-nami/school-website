@@ -1,0 +1,16 @@
+#follower {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: orchid;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: left 0.15s ease, top 0.1s ease;
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border: 2px solid black;
+    animation-timing-function: ease-in-out;
+}
